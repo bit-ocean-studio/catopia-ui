@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "catopia-ui",
+  "description": "🐱 Catopia UI is a minimalist style UI component library.",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "repository": "github:bit-ocean-studio/catopia-ui",
+  "scripts": {
+    "dev": "pnpm -r --parallel --filter=\"./packages/*\" run dev",
+    "build": "pnpm -r --filter=\"./packages/*\" run build",
+    "docs:dev": "pnpm --filter=docs dev",
+    "docs:build": "pnpm --filter=docs build",
+    "docs:preview": "pnpm --filter=docs preview",
+    "cspell:check": "cspell \"**\"",
+    "cspell:sort": "node ./scripts/cspell-sort.js",
+    "eslint:check": "eslint \"**/*.{ts,tsx,js,tsx,vue}\" --color",
+    "eslint:fix": "pnpm eslint:check --fix",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --check --write --ignore-unknown ."
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "cspell": "^7.0.0",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.2",
+    "unbuild": "^1.2.1"
+  },
+  "license": "MIT"
+}

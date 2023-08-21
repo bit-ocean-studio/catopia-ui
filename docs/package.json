@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "docs",
+  "description": "🐱 Catopia UI is a minimalist style UI component library.",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "repository": "github:bit-ocean-studio/catopia-ui",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.4"
+  },
+  "license": "MIT"
+}
