@@ -3,7 +3,7 @@
   NODE_OPTIONS = "--max_old_space_size=4096"
 
 [build]
-  publish = "docs/dist"
+  publish = "docs/.vitepress/dist"
   command = "pnpm run docs:build"
 
 [functions]
