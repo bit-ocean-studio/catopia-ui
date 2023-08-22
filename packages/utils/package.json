@@ -1,0 +1,9 @@
+{
+  "name": "@catopia-ui/utils",
+  "private": true,
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "license": "MIT"
+}

@@ -8,8 +8,8 @@
     "allowJs": true
   },
   "include": [
-    ".eslintrc.js",
-    "scripts/*.ts",
-    "packages/**/*.ts"
+    "docs",
+    "playground",
+    "packages"
   ]
 }

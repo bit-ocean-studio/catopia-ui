@@ -10,6 +10,9 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
+  "dependencies": {
+    "catopia-ui": "workspace:*"
+  },
   "devDependencies": {
     "vitepress": "1.0.0-rc.4"
   },

@@ -17,9 +17,15 @@
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --check --write --ignore-unknown ."
   },
+  "dependencies": {
+    "@catopia-ui/components": "workspace:*",
+    "@catopia-ui/utils": "workspace:*",
+    "vue": "^3.3.4"
+  },
   "devDependencies": {
+    "@catopia-ui/eslint-config": "workspace:*",
     "@changesets/cli": "^2.26.2",
-    "cspell": "^7.0.0",
+    "cspell": "^7.0.1",
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
     "unbuild": "^1.2.1"
