@@ -5,7 +5,6 @@ const ogImage = 'https://catopia-ui.bit-ocean.studio/og-image.png'
 const ogTitle = 'Catopia UI'
 const ogUrl = 'https://catopia-ui.bit-ocean.studio'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Catopia UI',
   description: 'A minimalist style UI component library',
@@ -22,7 +21,6 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
 
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' }
