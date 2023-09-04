@@ -1,5 +1,4 @@
 {
-  "private": true,
   "type": "module",
   "name": "docs",
   "description": "🐱 Catopia UI is a minimalist style UI component library.",
@@ -14,7 +13,8 @@
     "catopia-ui": "workspace:*"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-rc.4"
+    "vitepress": "1.0.0-rc.10"
   },
+  "private": true,
   "license": "MIT"
 }

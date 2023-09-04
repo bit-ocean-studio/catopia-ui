@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "catopia-ui",
   "description": "🐱 Catopia UI is a minimalist style UI component library.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
@@ -25,10 +24,11 @@
   "devDependencies": {
     "@catopia-ui/eslint-config": "workspace:*",
     "@changesets/cli": "^2.26.2",
-    "cspell": "^7.0.1",
-    "eslint": "^8.47.0",
-    "prettier": "^3.0.2",
-    "unbuild": "^1.2.1"
+    "cspell": "^7.3.2",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "unbuild": "^2.0.0"
   },
+  "private": true,
   "license": "MIT"
 }
